@@ -24,7 +24,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  padding: 0 150px;
+  padding: 0 130px;
   background-color: white;
   border-bottom: 2px solid black;
 }
@@ -32,7 +32,7 @@ body {
 .navbar a {
   text-decoration: none;
   color: black;
-  padding: 41px 5.7%;
+  padding: 37px 5.7%;
 }
 
 .navbar a:hover {
@@ -75,7 +75,7 @@ body {
 
 .section:hover {
   color: white;
-  background-image: url("images/noir.jpg") !important;
+  background-image: url('https://img.phonandroid.com/2016/11/fond-ecran-noir.jpg') !important;
   transition: all 0.5s ease-in-out;
 }
 
