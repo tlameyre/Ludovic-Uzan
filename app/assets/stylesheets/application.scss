@@ -11,3 +11,71 @@
 // Your CSS partials
 @import "components/index";
 @import "pages/index";
+
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Josefin Sans', sans-serif;
+  background-color: rgb(150,150,150);
+}
+.navbar {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 0 150px;
+  background-color: white;
+  border-bottom: 2px solid black;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: black;
+  padding: 41px 5.7%;
+}
+
+.navbar a:hover {
+  color: white;
+  background-color: rgb(150,150,150);
+  transition: all 0.5s ease-in-out;
+  font-size: 17px;
+}
+
+.wrapper {
+  margin: 0 150px;
+}
+
+.sections {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.sections a {
+  text-decoration: none;
+}
+
+.section {
+  width: 100%;
+  height: 75vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: transparent;
+  font-size: 30px;
+  font-weight: bold;
+  background-size: cover;
+  background-position: center;
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+  border-bottom: 2px solid black;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  opacity: 0.9;
+}
+
+.section:hover {
+  color: white;
+  background-image: url("images/noir.jpg") !important;
+  transition: all 0.5s ease-in-out;
+}
+
