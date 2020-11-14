@@ -1,0 +1,148 @@
+<% if action_name == 'profil' && controller_name == 'pages' %>
+  <div class="navbar">
+    <a href="/profil">
+      <div class="link active">Profil</div>
+    </a>
+    <a href="/parcours">
+      <div class="link">Parcours</div>
+    </a>
+    <a href="/experience">
+      <div class="link">Expériences</div>
+    </a>
+    <a href="/projet">
+      <div class="link">Projets</div>
+    </a>
+    <a href="/hobbie">
+      <div class="link">Hobbies</div>
+    </a>
+    <a href="/contact">
+      <div class="link">Contacts</div>
+    </a>
+  </div>
+<% elsif action_name == 'parcours' && controller_name == 'pages'%>
+  <div class="navbar">
+    <a href="/profil">
+      <div class="link">Profil</div>
+    </a>
+    <a href="/parcours">
+      <div class="link active">Parcours</div>
+    </a>
+    <a href="/experience">
+      <div class="link">Expériences</div>
+    </a>
+    <a href="/projet">
+      <div class="link">Projets</div>
+    </a>
+    <a href="/hobbie">
+      <div class="link">Hobbies</div>
+    </a>
+    <a href="/contact">
+      <div class="link">Contacts</div>
+    </a>
+  </div>
+<% elsif action_name == 'experience' && controller_name == 'pages'%>
+  <div class="navbar">
+    <a href="/profil">
+      <div class="link">Profil</div>
+    </a>
+    <a href="/parcours">
+      <div class="link">Parcours</div>
+    </a>
+    <a href="/experience">
+      <div class="link active">Expériences</div>
+    </a>
+    <a href="/projet">
+      <div class="link">Projets</div>
+    </a>
+    <a href="/hobbie">
+      <div class="link">Hobbies</div>
+    </a>
+    <a href="/contact">
+      <div class="link">Contacts</div>
+    </a>
+  </div>
+<% elsif action_name == 'projet' && controller_name == 'pages'%>
+  <div class="navbar">
+    <a href="/profil">
+      <div class="link">Profil</div>
+    </a>
+    <a href="/parcours">
+      <div class="link">Parcours</div>
+    </a>
+    <a href="/experience">
+      <div class="link">Expériences</div>
+    </a>
+    <a href="/projet">
+      <div class="link active">Projets</div>
+    </a>
+    <a href="/hobbie">
+      <div class="link">Hobbies</div>
+    </a>
+    <a href="/contact">
+      <div class="link">Contacts</div>
+    </a>
+  </div>
+<% elsif action_name == 'hobbie' && controller_name == 'pages'%>
+  <div class="navbar">
+    <a href="/profil">
+      <div class="link">Profil</div>
+    </a>
+    <a href="/parcours">
+      <div class="link">Parcours</div>
+    </a>
+    <a href="/experience">
+      <div class="link">Expériences</div>
+    </a>
+    <a href="/projet">
+      <div class="link">Projets</div>
+    </a>
+    <a href="/hobbie">
+      <div class="link active">Hobbies</div>
+    </a>
+    <a href="/contact">
+      <div class="link">Contacts</div>
+    </a>
+  </div>
+<% elsif action_name == 'contact' && controller_name == 'pages'%>
+  <div class="navbar">
+    <a href="/profil">
+      <div class="link">Profil</div>
+    </a>
+    <a href="/parcours">
+      <div class="link">Parcours</div>
+    </a>
+    <a href="/experience">
+      <div class="link">Expériences</div>
+    </a>
+    <a href="/projet">
+      <div class="link">Projets</div>
+    </a>
+    <a href="/hobbie">
+      <div class="link">Hobbies</div>
+    </a>
+    <a href="/contact">
+      <div class="link active">Contacts</div>
+    </a>
+  </div>
+<% else %>
+  <div class="navbar">
+    <a href="/profil">
+      <div class="link">Profil</div>
+    </a>
+    <a href="/parcours">
+      <div class="link">Parcours</div>
+    </a>
+    <a href="/experience">
+      <div class="link">Expériences</div>
+    </a>
+    <a href="/projet">
+      <div class="link">Projets</div>
+    </a>
+    <a href="/hobbie">
+      <div class="link">Hobbies</div>
+    </a>
+    <a href="/contact">
+      <div class="link">Contacts</div>
+    </a>
+  </div>
+<% end %>

@@ -1,0 +1,21 @@
+.container {
+  padding: 64px 32px;
+  background-color: white;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.texte {
+  width: 66%;
+}
+.gen-img {
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: calc(100vh - 200px);
+  border: 2px black solid;
+  border-top: 0;
+}
