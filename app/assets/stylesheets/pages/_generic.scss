@@ -3,6 +3,11 @@
   background-color: white;
 }
 
+.hobbie-img {
+  object-fit: cover ;
+  object-position: center ;
+  height: calc(100vh - 200px) ;
+}
 .content {
   display: flex;
   justify-content: space-between;

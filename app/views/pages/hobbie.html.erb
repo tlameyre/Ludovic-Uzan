@@ -1,8 +1,24 @@
-<div class="gen-img" style="background-image: url(<%= asset_path('hobbies-paysage-1') %>);"></div>
+<div id="carouselExampleInterval" class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active" data-interval="4000">
+      <img src="<%= asset_path('hobbies-paysage-1') %>" class="d-block w-100 hobbie-img" alt="...">
+    </div>
+    <div class="carousel-item" data-interval="4000">
+      <img src="<%= asset_path('hobbies-paysage-2') %>" class="d-block w-100 hobbie-img" alt="...">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleInterval" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleInterval" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
 <div class="container">
   <div class="content">
     <div>
-      <h1><%= action_name.capitalize %></h1>
+      <h1><%= "#{action_name.capitalize}s"  %></h1>
     </div>
     <div class="texte">Lorem ipsum dolor sit amet, consectetur adipisicing, elit. Suscipit molestiae sit perspiciatis sint quos saepe, nemo rerum quae mollitia tempore soluta blanditiis eum iste quam eveniet voluptatem! Iste, dolorem. Recusandae!
     Esse, optio, reiciendis iure aut quas obcaecati nostrum inventore eos enim accusantium hic, fugit laudantium? Nemo dolorem laborum eos in, excepturi accusamus quasi labore rem repellat veritatis assumenda eum sint!
